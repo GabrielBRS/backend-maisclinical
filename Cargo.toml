@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "app",
+    "domain",
+    "config",
+    "modules"
+]
+
+# Opcional, mas altamente recomendado: define qual pacote rodar por padrão
+default-members = ["app"]
+
+# Garante o uso do resolver de dependências mais moderno do Rust
+resolver = "2"
